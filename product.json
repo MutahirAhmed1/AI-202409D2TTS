@@ -16,5 +16,23 @@
     "price" : 20000,
     "model" : "2k24",
     "image" : "images/n1.jpg"
+},
+{
+    "id" : 1 ,
+    "product": "nike",
+    "qty" : 45,
+    "description" : "hello",
+    "price" : 20000,
+    "model" : "2k24",
+    "image" : "images/n1.jpg"
+},
+{
+    "id" : 1 ,
+    "product": "nike",
+    "qty" : 45,
+    "description" : "hello",
+    "price" : 20000,
+    "model" : "2k24",
+    "image" : "images/n1.jpg"
 }
 ]
