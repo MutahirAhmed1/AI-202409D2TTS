@@ -9,30 +9,30 @@
     "image" : "images/n1.jpg"
 },
 {
-    "id" : 1 ,
+    "id" : 2 ,
     "product": "nike",
     "qty" : 45,
     "description" : "hello",
-    "price" : 20000,
+    "price" : 30000,
     "model" : "2k24",
-    "image" : "images/n1.jpg"
+    "image" : "images/n5.jpg"
 },
 {
-    "id" : 1 ,
+    "id" : 3 ,
     "product": "nike",
     "qty" : 45,
     "description" : "hello",
-    "price" : 20000,
+    "price" : 40000,
     "model" : "2k24",
-    "image" : "images/n1.jpg"
+    "image" : "images/a2.jpg"
 },
 {
-    "id" : 1 ,
+    "id" : 4 ,
     "product": "nike",
     "qty" : 45,
     "description" : "hello",
-    "price" : 20000,
+    "price" : 50000,
     "model" : "2k24",
-    "image" : "images/n1.jpg"
+    "image" : "images/a3.jpg"
 }
 ]

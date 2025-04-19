@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " style="margin-top: -3%;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo bg.png" width="120rem" height="120rem"><b>Quick Snacks</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item taxt-dark ">
+                <a class="nav-link active "aria-current="page"  href="./home.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item taxt-dark">
+                <a class="nav-link active " aria-current="page" href="menu.html"><b>Menu</b></a>
+              </li>
+              <li class="nav-item taxt-dark">
+                <a class="nav-link active  " aria-current="page" href="contact..html"><b>Contact</b></a>
+              </li>
+              <li class="nav-item taxt-dark">
+                <a class="nav-link active  " aria-current="page" href="review.html"><b>Review</b></a>
+              </li>
+              <li class="nav-item taxt-dark">
+                <a class="nav-link active  " aria-current="page" href="gellery.html"><b>Gallery</b></a>
+              </li>
+              
+              <li class="nav-item  dropdown taxt-dark">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>Catogeries</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="snacksforkids.html">Snacks For Kids</a></li>
+                  <li><a class="dropdown-item" href="healthysnacks.html">Healthy Snacks</a></li>
+                  <li><a class="dropdown-item" href="EasyOnStomachSnacks.html">Easy To Stomach Snacks</a></li>
+                  <li><a class="dropdown-item" href="Smoothies.html">Smoothies</a></li>
+                </ul>
+              </li>
+           
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+    <!--end-->
 <div class="container p-5">
     <div class="row" id="r1">
 
@@ -39,7 +84,7 @@
                 <div class="card-body">
                     <h4 class="card-title">`+value.product+`</h4>
                     <p class="card-text">`+value.price+`</p>
-                    <a href="detail.html?pId=`+value.id+`&pDes=`+value.description+`&pName=`+value.name+`&pPrice=`
+                    <a href="detail.html?pId=`+value.id+`&pDes=`+value.description+`&pName=`+value.product+`&pPrice=`
                     +value.price+`&pImage=`+value.image+`"
                     "class="card-text">detail</a>               
                     
@@ -48,7 +93,7 @@
         </div>`
                             
                                      
-                })
+               }   )
                 productsRow1.html(col);
             }
         })
