@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cors test</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+   <center><h1>cors test page </h1></center>
+    <button id="fetchData">Fetch data</button>
+    <p id="result"></p>
+
+
+
+
+
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script>
+        const fetchDataButton =
+        document.getElementById('fetchData');
+        const result = document.getElementById('result');
+
+        fetchDataButton.addEventListener('click', () => {
+        // make a request to a diffrent domain here ()
+        fetch('https://example.com/api/data')
+            .then(Response => Response.text())
+            .then(data => {
+                result.textContent = data;
+        });
+            
+           
+            })
+            .catch(error => {
+                result.textContent = `Error: &{error}`;
+            });
+        
+    </script>
+</body>
+</html>

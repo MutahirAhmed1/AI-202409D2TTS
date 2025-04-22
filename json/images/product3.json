@@ -1,0 +1,40 @@
+[
+    {
+        "id" : 1,
+        "name" : "Mercedes",
+        "model" : "S class",
+        "description" : "Hello This is Mercedes S class",
+        "price" : "200 Million Rupees",
+        "image" : "images/th.jpg"
+
+        
+    },
+    {
+        "id" : 2,
+        "name" : "Ferrari ",
+        "model" : "Ferrari SF90 Stradale (2019)",
+        "description" : "Hello This is Ferrari SF90 Stradale (2019)",
+        "price" : "250 Million Rupees",
+        "image" : "images/th2.jpg"
+
+        
+    }, {
+        "id" : 3,
+        "name" : "Rolls Royce",
+        "model" : "Rolls Royce Ghost",
+        "description" : "Hello This is Rolls Royse Ghost",
+        "price" : "300 Million Rupees",
+        "image" : "images/th3.jpg"
+
+        
+    }, {
+        "id" : 4,
+        "name" : "Lamborghini",
+        "model" : "Lamborghini Aventador S Roadster",
+        "description" : "Hello This is Lamborghini Aventador S Roadster",
+        "price" : "200 Million Rupees",
+        "image" : "images/th4.jpg"
+
+        
+    }
+]
