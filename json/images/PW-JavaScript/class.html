@@ -1,0 +1,48 @@
+<script>
+
+    class human{
+        name ;
+        food ;
+        lang ;
+        constructor(sName , sFood ,sLang){
+            this.name = sName ;
+            this.food = sFood ;
+            this.lang = sLang ;
+        } 
+        eat(){
+            console.log(this.name + "eats" + this.food);
+        }
+        speak(){
+            console.log(this.name + "can speak" + this.lang);
+        }
+    }
+        
+    let std1 = new human('ali' , 'biryani' , 'English');
+    std1.eat();
+    std1.speak();
+    let std2 = new human('aqsa' , 'Dal chawal' , );
+    std2.eat();
+
+    class fruit{
+        name ;
+        food ;
+        lang ;
+        constructor(sName , sTaste){
+            this.name = sName ;
+            this.taste = sTaste ;
+            
+        } 
+        eat(){
+            console.log(this.name + "eats" + this.fruit);
+        }
+        taste(){
+            console.log(this.name + "can speak" + this.lang);
+        }
+    }
+        
+    let a = new fruit('fahad','banana');
+    std1.eat();
+    std1.taste();
+    let b = new fruit('aqsa' , 'apple' , );
+    std2.eat();
+</script> 

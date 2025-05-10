@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aptech xmlns:s1="https//abc.com" xmlns:s2="https//abcd.com" xmlns:s3="https//abcde.com" xmlns:s4="https//abcdef.com">
+    <students>
+        <s1:student>
+            <id>1</id>
+            <name>Ali</name>
+            <course>DISM</course>
+        </s1:student>
+        <s2:student>
+            <id>1</id>
+            <name>Ali</name>
+            <course>DISM</course>
+        </s2:student>
+        <s3:student>
+            <id>1</id>
+            <name>Ali</name>
+            <course>DISM</course>
+        </s3:student>
+        <s4:student>
+            <id>1</id>
+            <name>Ali</name>
+            <course>DISM</course>
+        </s4:student>
+    </students>
+</aptech>

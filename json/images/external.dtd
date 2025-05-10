@@ -1,0 +1,8 @@
+<!ELEMENT aptech (staff*,students*)>
+<!ELEMENT staff (id , name , email)>
+<!ELEMENT students (id,name,course)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+"aptech shahrah-e-faisal">
